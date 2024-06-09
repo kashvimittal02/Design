@@ -1,0 +1,231 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.main{
+      width: 100%;
+      background: url(1.jpg);
+      background-size: cover;
+      height: 109vh;
+}
+
+.navbar{
+        width: 1200px;
+        height: 75px;
+        margin: auto;
+}
+
+.menu{
+      width: 600px;
+      float: left;
+      height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+ul li{
+      list-style: none;
+      margin-left: 55px;
+      margin-top: 27px;
+      font-size: 16px;
+}
+
+ul li a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+              color: #17202A;
+}
+
+.search{
+        width: 330px;
+        float: left;
+        margin-left: 270px;
+}
+.srch{
+      font-family: Times New Roman;
+      width: 200px;
+      height: 40px;
+      background: transparent;
+      border: 2px solid #17202A;
+      margin-top: 13px;
+      color: #fff;
+      border-right: none;
+      font-size: 16px;
+      float: left;
+      padding: 10px;
+      border-bottom-left-radius: 5px;
+      border-top-right-radius: 5px;
+}
+
+.btn{
+     width: 35%;
+     height: 40px;
+     background: #17202A;
+     border: 2px solid #17202A;
+     margin-top: 13px;
+     color: #fff;
+     font-size: 15px;
+     border-bottom-left-radius: 5px;
+     border-top-right-radius: 5px;
+}
+
+.btn:focus{
+           outline: none;
+}
+
+.srch:focus{
+            outline: none;
+}
+
+.content{
+         width: 1200px;
+         height: auto;
+         margin:auto;
+         color: white;
+         position: relative;
+}
+
+.para{
+      padding-left: 20px;
+      padding-bottom: 25px;
+      font-family: Calibri(Body);
+      letter-spacing: 0.75px;
+      line-height: 30px;
+}
+
+.content h1{
+            font-family: Times New Roman;
+            font-size: 50px;
+            padding-left: 20px;
+            margin-top: 120px;
+            letter-spacing: 2px;
+}
+
+.content h2{
+            font-family: Times New Roman;
+            font-size: 30px;
+            padding-left: 20px;
+            letter-spacing: 0.75px;
+}
+
+.span{
+      color: #17202A;
+}
+
+.cn{
+    width: 160px;
+    height: 40px;
+    background: #212F3D;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-family: Calibri;
+    font-size: 20px;
+    border-radius: 10px; 
+    cursor: pointer;
+}
+
+.cn a{
+      text-decoration: none;
+      color:#fff;
+}
+
+.cn:hover{
+          background-color: #2C3E50;
+}
+
+.form{
+      width: 250px;
+      height: 270px;
+      position: absolute;
+      background-color: #1C2833;
+      opacity: 0.95;
+      margin-top: -230px;
+      margin-left: 870px;
+      border-radius: 10px;
+      padding: 25px;
+}
+
+.form h3{
+         width: 220px;
+         font-family: sans-serif;
+         text-align: center;
+         font-size: 20px;
+         background-color: white;
+         color: #17202A;
+         border-radius: 5px;
+         margin: 2px;
+         padding: 8px;
+}
+
+.form input{
+            width: 240px;
+            height: 35px;
+            background: transparent;
+            border-bottom: 1px solid #fff;
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            color: white;
+            font-size: 15px;
+            letter-spacing: 0.75px;
+            margin-top: 30px;
+            font-family: sans-serif;
+}
+
+.form input:focus{
+                  outline: none;
+}
+
+.bttn{
+      width: 80px;
+      height: 25px;
+      background: #F0F3F4;
+      border: none;
+      margin-bottom: 10px;
+      margin-top: 8px;
+      font-family: sans-serif;
+      font-size: 14px;
+      cursor: pointer;
+      border-radius: 5px;
+      font-weight: bold;
+}
+
+.bttn a{
+        text-decoration: none;
+        color: #1C2833;
+}
+
+.bttn:hover{
+            text-decoration: underline;
+}
+
+.link{
+      text-align: center;
+      font-size: 17.5px;
+      font-family: sans serif;
+      margin-top: 3px;
+}
+
+.link a{
+        text-decoration: none;
+        color: #AF7AC5;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+}
+
+.link a:hover{
+              text-decoration: underline;
+}
